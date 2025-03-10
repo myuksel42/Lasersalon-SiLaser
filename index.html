@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lasersalon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welkom bij Lasersalon Groningen</h1>
+        <p>De nieuwste technologie in ontharing, voor vrouwen die hygiëne en kwaliteit waarderen.</p>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Onze Technologie</h2>
+        <p>Wij werken met de nieuwste Diode Ice Laser technologie, die vier opzetstukken heeft voor een hygiënische en gerichte behandeling van elk lichaamsdeel.</p>
+        <p>Met onze diode laser bieden we pijnloze en effectieve ontharing, speciaal gericht op vrouwen.</p>
+    </section>
+
+    <!-- Diensten Section -->
+    <section id="diensten">
+        <h2>Diensten</h2>
+        <ul>
+            <li>Gezicht</li>
+            <li>Oksels</li>
+            <li>Benen</li>
+            <li>Bikinilijn</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contactgegevens</h2>
+        <p>Bel ons voor meer informatie of om een afspraak te maken:</p>
+        <p><strong>Telefoon:</strong> 0619905100</p>
+        <p><strong>Adres:</strong> Capellastraat 34, 9742LK Groningen</p>
+    </section>
+
+    <!-- Boekingssectie -->
+    <section id="boeking">
+        <h2>Maak een afspraak</h2>
+        <form action="bookingsubmit.html" method="POST">
+            <label for="datum">Kies een datum:</label>
+            <input type="date" id="datum" name="datum" required><br><br>
+
+            <label for="tijd">Kies een tijd:</label>
+            <select id="tijd" name="tijd" required>
+                <option value="10:00">10:00</option>
+                <option value="10:30">10:30</option>
+                <option value="11:00">11:00</option>
+                <option value="11:30">11:30</option>
+                <option value="12:00">12:00</option>
+                <option value="12:30">12:30</option>
+                <option value="13:00">13:00</option>
+                <option value="13:30">13:30</option>
+                <option value="14:00">14:00</option>
+                <option value="14:30">14:30</option>
+                <option value="15:00">15:00</option>
+                <option value="15:30">15:30</option>
+                <option value="16:00">16:00</option>
+                <option value="16:30">16:30</option>
+                <option value="17:00">17:00</option>
+                <option value="17:30">17:30</option>
+                <option value="18:00">18:00</option>
+                <option value="18:30">18:30</option>
+                <option value="19:00">19:00</option>
+                <option value="19:30">19:30</option>
+                <option value="20:00">20:00</option>
+                <option value="20:30">20:30</option>
+            </select><br><br>
+
+            <input type="submit" value="Boek je afspraak">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Lasersalon Groningen. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
